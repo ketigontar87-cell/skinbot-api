@@ -38,7 +38,11 @@ See [`openapi.yaml`](./openapi.yaml) for the public interface reference and [`ex
 
 ## Field results
 
-First retail pilot: THE-FACE-ONLY, six locations in Moscow, launched March 2026. Average time to recommendation ~30 seconds; 163 SKUs in the pilot catalog. Results are pilot-specific (one market, one retailer, one catalog) and are not a general performance guarantee.
+SKINBOT runs in live retail deployments across two markets: Russia and Estonia.
+
+First retail pilot: THE-FACE-ONLY, six locations in Moscow, launched March 2026. In that deployment: session completion rate of 79.4%, average time to recommendation ~30 seconds, 163 SKUs in the pilot catalog. Across analyzed live sessions in current deployments, 36-45% of sessions that reached a recommendation ended with items added to cart.
+
+All figures are deployment-specific (given market, retailer, and catalog) and are not a general performance guarantee.
 
 ## Status
 
