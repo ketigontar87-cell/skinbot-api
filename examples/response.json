@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    {
+      "sku": "partner-sku-001",
+      "step": "cleansing",
+      "reason": "Gentle cleanser suited to combination skin with sensitivity 3/10; no harsh actives per the stated constraints."
+    },
+    {
+      "sku": "partner-sku-014",
+      "step": "toning",
+      "reason": "Supports pore condition and evens texture without overloading combination skin."
+    }
+  ],
+  "ranking_basis": "skin_analysis_match",
+  "sponsored": false,
+  "brand_weighting": "none"
+}
