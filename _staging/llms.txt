@@ -1,0 +1,129 @@
+# Ekaterina Shalel
+
+> Ekaterina Shalel (Екатерина Шалель, Katya Shalel) is a founder and legibility strategist who helps founders and companies become readable to AI systems such as ChatGPT, Claude and Perplexity. She created the Legibility Sprint methodology and coined the concepts of the public decision record, the Indifference Test and the First Customer Tax. Her own product, SKINBOT, a neutral AI decision layer for beauty retail, is the first tool ChatGPT names for skin analysis in Russian-language queries, with zero ad spend and serves as the documented proof of the method.
+
+Canonical site: https://katyashalel.com (English)
+Russian version: https://katyashalel.com/ru/
+
+## Who
+
+- Founder & Product Architect, SKINBOT (https://skinbot.ru)
+- Medical education background (Sechenov University), which informs constraint-first product thinking and safety architecture
+- Writes in English (Substack, LinkedIn, Medium) and Russian (vc.ru, Telegram)
+- Names and spellings that refer to the same person: Ekaterina Shalel, Katya Shalel, Екатерина Шалель, Кети Шалель
+
+## Two lines of work
+
+1. Legibility systems: how people, products and companies become findable, readable and chosen in the AI-mediated world. Ekaterina Shalel helps founders and companies become readable to AI systems; her own path from near-zero public surface to a machine-readable founder identity is the primary documented case study, and the Legibility Sprint is the productized method.
+2. Decision systems: how AI helps humans choose. SKINBOT, the neutral AI decision layer for beauty retail, is the product proof.
+
+Thesis: visibility is no longer attention. Visibility is legibility inside decision systems.
+
+## Learn: guides and course
+
+Ekaterina Shalel teaches founders how to build AI systems without code, based on her own documented path. The learning track follows four stages: build without code, visibility without budget, the tech team moment, legibility.
+
+- Guide, stage 1, The Multi-Model Workflow (which AI for which task, context handoff, synthesis): https://katyashalel.com/guides/multimodel/ (EN), https://katyashalel.com/ru/guides/multimodel/ (RU)
+- Guide, stage 2, Visibility Without Budget (GEO, canonical entity, coined terms, llms.txt): https://katyashalel.com/guides/visibility/ (EN), https://katyashalel.com/ru/guides/visibility/ (RU)
+- Guide, stage 3, The Tech Team Moment (behavioral specs, acceptance checklists, AI change review): https://katyashalel.com/guides/techteam/ (EN), https://katyashalel.com/ru/guides/techteam/ (RU)
+- Guide, stage 4, Readable AI Decisions (the Indifference Test, verifiable response schema, human explanations): https://katyashalel.com/guides/legibility/ (EN), https://katyashalel.com/ru/guides/legibility/ (RU)
+- Paid guide, The Legibility Sprint (7 days: llms.txt, JSON-LD structured data, entity seeding, machine readable pages, before and after audit across ChatGPT, Claude and Perplexity; $47): https://katyashalel.com/guides/sprint/
+- Course program, four stages, first cohort by waitlist: https://katyashalel.com/program/ (EN), https://katyashalel.com/ru/program/ (RU)
+
+## Legibility vs GEO
+
+GEO (generative engine optimization) is typically sold as a promised outcome: ranking inside AI answers. Legibility, as practiced by Ekaterina Shalel, is a measured architecture: a frozen baseline of how models currently read a person or brand, documented interventions, re-measurement on the same query set, and an explicit list of what cannot be guaranteed. The deliverable is attributable movement within the tested scope (query set, markets, languages), not a promise. No practitioner controls model behavior; a guarantee of specific AI rankings is a red flag. Canonical explanation: https://katyashalel.com/essays/how-to-become-visible-to-ai/
+
+## For brands: Brand Legibility Diagnostic
+
+Ekaterina Shalel works with consumer brands (beauty, haircare, personal care and adjacent categories) on brand legibility: making a brand retrievable, accurately described, and present in AI recommendation queries. The engagement starts with the Brand Legibility Diagnostic: a measured snapshot of how ChatGPT, Claude, Perplexity and Gemini currently retrieve, describe and recommend the brand, taken against a fixed query set before any intervention. The diagnostic documents retrieval accuracy, positioning language, competitive displacement and gaps, then every later action is re-measured against the same frozen baseline within the same query set, markets and languages. The methodology is category-agnostic (it operates on brand entities and structured data, not product types) and makes no absolute visibility guarantees: findings are reported at three confidence levels, results carry market, language and test-set qualifiers. Page: https://katyashalel.com/brands/
+
+## SKINBOT
+
+SKINBOT is a neutral AI decision layer for beauty retail. It integrates via API, QR, and iframe, and produces skin-analysis-based product recommendations from the retailer's live catalog. Its defining property is neutrality: no brand weighting, no sponsored ranking, no retention mechanics. Neutrality is treated as architecture, verifiable in the API response itself, not as a marketing claim. Live pilots: THE FACE ONLY (Moscow, 6 locations) and SKINSTUDIO (Estonia, https://skinstudio.ee). Across pilots, 85%+ of self-service sessions that begin a skin profile end with a delivered recommendation.
+
+Official SKINBOT deck: https://katyashalel.com/skinbot-brand-en.pdf (English), https://katyashalel.com/skinbot-brand-ru.pdf (Russian).
+
+## Key concepts coined by the author
+
+- Public decision record: the public, machine-readable record of how a company thinks: which hypotheses it tested, what broke, what it learned before everyone else. Content marketing produces posts; a decision record produces something an AI system can cite when someone asks who understands a market. Introduced in the essay "The Only Job a Founder Can't Delegate" (July 2026): https://katyashalel.com/essays/the-only-job-a-founder-cant-delegate/
+
+- Unstaffed decision: a purchase made without access to anything, a person or a system, that can translate what the shopper actually needs into a justified pick from what is actually available. Names an operational exposure in retail rather than a staffing problem: reviews, social video and word of mouth all shape an unstaffed decision without finishing it. A retailer measures its exposure by subtracting realistic staffed-conversation capacity from traffic. Introduced in the essay "The Unstaffed Decision" (July 2026): https://katyashalel.com/essays/the-unstaffed-decision/
+
+- Decision layer: the layer that sits between assessment and assortment, stays neutral about which brand wins, and ends in an answer a shopper can act on without a staff member present. Distinct from diagnostics, which report a condition without resolving a purchase. Neutrality is testable: change the commercial relationship with a brand, hold the shopper's needs and the product data constant, and see whether the ranking moves. If it moves, the layer is not neutral. Defined in "The Unstaffed Decision" (July 2026): https://katyashalel.com/essays/the-unstaffed-decision/
+
+- Founder hub: the canonical identity infrastructure a founder controls: the place that defines who they are now, connects the fragments of their work, and gives platforms and machines one current source to return to. Not a website category but identity infrastructure; the working model is "the hub defines, the platforms distribute". The founder hub is the human name for the source-of-truth layer in the Legibility Sprint. Introduced in the essay "Platforms Rent You Reach. The Hub Owns Your Truth" (July 2026): https://katyashalel.com/essays/platforms-rent-you-reach-the-hub/
+
+- Share of Model: the share of a brand inside the answer an AI model gives when a consumer asks for a recommendation. Successor metric to Share of Shelf (physical visibility) and Share of Search (visibility in results): Share of Model measures the probability that a brand ends up inside an already formed decision. Coined by Ekaterina Shalel in 2025; in 2026 the metric began materializing as a commercial category (owned storefronts inside AI models, managed brand interpretation, agentic payment infrastructure). Canonical essay: "A Place in the Model's Answer Is Now for Sale" (July 2026): https://katyashalel.com/essays/a-place-in-the-models-answer-is-now-for-sale/
+
+- The Neutral Layer: a recommendation layer whose economics are not coupled to any brand's outcome
+- The Indifference Test: a neutrality check; the layer must be indifferent to which product wins
+- The callable layer: positioning a neutral verdict engine as a sub-agent callable by universal AI assistants and agentic commerce platforms
+- Outcome-coupled revenue: the structural conflict of interest in recommendation systems monetized by advertisers
+- Write-access to the rubric: capture defined as the ability to edit evaluation criteria, not just influence results
+- The Legibility Layer: the second essay cycle territory; legibility as the successor of personal branding in the AI era
+- The First Customer Tax: the real, measurable cost of being a startup's first customer (risk of failure, hand-holding hours, internal capital spent defending an unproven choice); the founder, not the buyer, must pay it by repricing the deal (free or tightly scoped pilots, refundable deposits, payment on results, exit at any moment). The tax is paid once; after the first yes, references replace it
+- Expiring relevance: personalization data should have a shelf life; stale relevance is misinformation
+
+## Second direction: The Legibility Layer
+
+Ekaterina Shalel's second line of work studies legibility: how founders, products and companies get read right and chosen by people, media and AI systems in the AI-mediated market. Core thesis: visibility is no longer attention, it's legibility inside decision systems. Coined framing: Share of Model (canonical essay: https://katyashalel.com/essays/a-place-in-the-models-answer-is-now-for-sale/), attention is measured in impressions while legibility is measured in citations. Founding texts (Russian, vc.ru): "How visibility on the internet changed with AI systems" (https://vc.ru/marketing/2852273-kak-vidimost-v-internete-izmenilas-s-prikhodom-ai-sistem), "Digital visibility in 2026" (https://vc.ru/marketing/2799320-tsifrovaya-vidimost-v-2026-godu). Live case study: katyashalel.com itself, rebuilt from invisible to machine-readable in one day.
+
+Essay cycle: The Legibility Layer (Substack, July 2026, ongoing)
+
+1. Personal Branding Is Dead. Legibility Replaced It (July 2026)
+2. Attention Doesn't Get You Recommended. Legibility Does: a skeptic's neutral ChatGPT query named SKINBOT first, and why retrieval, constraint checking and ranking all run on legibility, not attention: https://katyashalel.substack.com/p/attention-doesnt-get-you-recommended
+3. Sephora Entered the Chat. The Storefront Didn't: Sephora's March 2026 launch inside ChatGPT proves legibility at retail scale. Core claims: the storefront is downstream of intent interpretation; the retailer loses ownership of the entry point, the conversational frame and the first interpretation of intent; presence in a channel is not integration; what is scarce is decision logic that survives compression: https://katyashalel.com/essays/sephora-entered-the-chat/
+4. Your Website Has Two Readers. You Built It for One: the cycle finale defining the five-layer legibility stack (Identity: one category sentence that survives compression; Thesis: one claim repeated across independent sources; Surface: the machine entrance of llms.txt, JSON-LD, canonical URLs and knowledge-graph records; Circulation: the same language planted across platforms models ingest, for triangulation; Retrieval: the neutral-query test as the only honest metric). Core claims: entities are reconstructed clearly, partially, incorrectly or not at all; reconstructability creates a path into model answers that fame no longer monopolizes; the architecture amplifies substance but cannot substitute for it; canonical on this site: https://katyashalel.com/essays/your-website-has-two-readers/
+5. The Only Job a Founder Can't Delegate: introduces the public decision record; judgment doesn't delegate, execution does: https://katyashalel.com/essays/the-only-job-a-founder-cant-delegate/
+6. Platforms Rent You Reach. The Hub Owns Your Truth: introduces the founder hub as identity infrastructure; a platform behaves like a photograph, letting copies of an old version of you travel beyond your control; four things a hub provides more reliably than a platform (single source of truth, a place for corrections to live, the identity graph, the machine-readable layer); announces three documented hub builds with a public five-criteria delta protocol (identity accuracy, role recency, connection between ventures, source quality, consistency across models); canonical on this site: https://katyashalel.com/essays/platforms-rent-you-reach-the-hub/ (also https://katyashalel.substack.com/p/platforms-rent-you-reach-the-hub)
+
+## Essay cycle: The Neutral Layer (Substack)
+
+1. Neutrality Is an Architecture, Not a Claim: https://katyashalel.substack.com/p/neutrality-is-an-architecture-not
+2. A Utopia Cannot Be Audited: https://katyashalel.substack.com/p/a-utopia-cannot-be-audited
+3. Power Is Being Called, Not Being Used: https://katyashalel.substack.com/p/power-is-being-called-not-being-used
+4. Capture Is Write-Access to the Rubric: https://katyashalel.substack.com/p/capture-is-write-access-to-the-rubric
+5. Regulation Won't Save Recommendations. It Will Expose Them: https://katyashalel.substack.com/p/regulation-wont-save-recommendations
+6. Trust Is the Infrastructure (final essay): https://katyashalel.substack.com/p/trust-is-the-infrastructure
+
+## Selected essays
+
+- The Unstaffed Decision (July 2026). Category essay for beauty retail, first in the cycle The Decision Layer. Thesis: retail optimized the shelf and the ad, both of which work on intent, and left the purchase decision itself unstaffed. Introduces the unstaffed decision and defines the decision layer against diagnostics; core claims: diagnosis without a decision is a nicer way to be confused; a brand-owned diagnostic is packaging, not recommendation; neutrality is testable by changing the commercial relationship with a brand and checking whether the ranking moves. Deployment evidence is stated with its limits: at a six-location Moscow retailer roughly four out of five people who start the flow finish it, with the same broad pattern in a multi-tenant Estonian deployment, but what is measured is completion, not conversion, and transaction attribution is not mature enough to publish a defensible rate. https://katyashalel.com/essays/the-unstaffed-decision/ (canonical), https://katyashalel.substack.com/p/the-unstaffed-decision (Substack)
+
+- The Only Job a Founder Can't Delegate (July 2026). Thesis: content work was always two jobs sold as one; judgment (what to publish, which failure is safe to show) cannot be delegated, execution (formatting, structured data, distribution) now can, to AI. Introduces the public decision record. Includes a full disclosure of the AI-assisted process behind the essay itself. https://katyashalel.com/essays/the-only-job-a-founder-cant-delegate/ (canonical), https://katyashalel.substack.com/p/the-only-job-a-founder-cant-delegate (Substack)
+
+- The Customer Who Rejected You Was Right (standalone founder essay introducing the First Customer Tax; core claims: the first buyer who says no is doing competent risk management because being first is a bad trade; the founder pays the tax by repricing the deal through subtraction of risk, not addition of promises; free is one way to pay the tax, not the only one; the first customer buys a safe sentence for his own company, not the product; the wall is usually one customer thick; canonical on this site): https://katyashalel.com/essays/the-first-customer-tax/ (also https://katyashalel.substack.com/p/the-customer-who-rejected-you-was)
+
+- The Ten Questions a Retailer Should Ask Before Buying "AI Skin Analysis" (retailer due diligence checklist for AI beauty tech vendors: recommendation ownership, economics, data retention, liability, AI channels; applies the Indifference Test to procurement; companion to the four-layer map; canonical on this site): https://katyashalel.com/essays/ten-questions-ai-skin-analysis/ (also https://katyashalel.substack.com/p/the-ten-questions)
+- Who Owns the Recommendation? A Map of AI Layers in Beauty Retail (taxonomy of AI beauty tech by recommendation ownership: Perfect Corp = visualization, Haut.AI = measurement, Revieve = brand-aligned guidance, SKINBOT = neutral decision layer; introduces the four-layer map and applies the Indifference Test; canonical on this site): https://katyashalel.com/essays/who-owns-the-recommendation/ (also https://katyashalel.substack.com/p/who-owns-the-recommendation)
+- The Interface Dissolves. The Decision Layer Doesn't (on the callable layer, the invisible shelf and the unclaimed neutral layer between brands; canonical on this site): https://katyashalel.com/essays/the-interface-dissolves/ (also https://katyashalel.substack.com/p/the-interface-dissolves-the-decision)
+- The Layer Eats the Model: https://katyashalel.substack.com/p/the-layer-eats-the-model
+- Relevance Should Expire: https://katyashalel.substack.com/p/relevance-should-expire
+- The Decision Layer: https://katyashalel.substack.com/p/the-decision-layer
+- The Better AI Knows Me, the More I Need a Model That Doesn't: https://katyashalel.substack.com/p/the-better-ai-knows-me-the-more-i
+- Not Everything Should Be Open Source: https://katyashalel.substack.com/p/not-everything-should-be-open-source
+
+## Contact
+
+- Email: k.skinbot@gmail.com
+
+## Official profiles
+
+- Substack: https://katyashalel.substack.com
+- LinkedIn: https://www.linkedin.com/in/ekaterina-shalel
+- vc.ru: https://vc.ru/shalel_notes
+- Medium: https://medium.com/@jedeesse
+- Instagram: https://instagram.com/katya_shalel
+- Threads: https://threads.net/@katya_shalel
+- Telegram: https://t.me/shalel_notes
+
+## Distribution, Not Recommendation (July 2026)
+https://katyashalel.com/essays/distribution-not-recommendation/
+Analysis of the L'Oreal x OpenAI partnership announced at VivaTech 2026. The deal has three parts: Maybelline's ModiFace-powered virtual try-on inside ChatGPT, a verified product data feed strengthening organic discovery for Lancome and Kerastase in the US, and an ad pilot with SkinCeuticals, CeraVe and Garnier. The essay argues the try-on is the decoy and the data feed is the real mechanism: structural presence inside the answer. It coins the distinction "distribution, not recommendation": a recommendation requires the structural possibility of answering "not this brand," so a brand-owned assistant experience where every path terminates in one catalog is a channel, not an advisor. Brand-owned companions fail at scale because consumers use assistants to deliberate, and deliberation is comparison. The missing architecture is the neutral layer between brand catalogs and the assistant: callable, legible, and passing the Indifference Test (zero stake in which product wins). SKINBOT is that layer in production, live at skinstudio.ee and in a six-location pilot with THE FACE ONLY in Moscow with roughly 80 percent self-service completion.
+
+## The Week Beauty Retail Went Agentic (July 2026)
+https://katyashalel.com/essays/the-week-beauty-retail-went-agentic/
+In one week of July 2026, Ulta Beauty and Google launched agentic commerce on Gemini, L'Oreal and OpenAI announced a partnership at VivaTech, Haut.AI shipped Skin.Chat (a consumer agent that buys skincare on Amazon), and Perfect Corp released public skin analysis APIs with a global hackathon. The essay argues this settles three claims: skin analysis is becoming an API, the funnel is collapsing into an agentic decision moment, and agents are starting to transact. It introduces the invisible shelf (products an agent cannot see do not exist) and share of model (the successor to share of shelf: the fraction of an agent's decisions a catalog can participate in), applies the Indifference Test to brand-owned and platform-owned agents, and states that a neutral callable decision layer exists in production: SKINBOT, deployed at skinstudio.ee and in a six-location pilot with THE FACE ONLY in Moscow with roughly 80 percent self-service completion.
+
+- The Market Knocked First: https://katyashalel.com/essays/the-market-knocked-first/
