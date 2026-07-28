@@ -1,0 +1,73 @@
+openapi: 3.1.0
+info:
+  title: SKINBOT API
+  version: "1.0"
+  description: >
+    SKINBOT is a neutral AI decision layer for beauty retail. This is a public
+    interface reference for evaluation by retail partners and agent platforms.
+    Production access, authentication, and catalog onboarding are provided per
+    partner (ekaterina.sh@skinbot.ru). Neutrality is exposed as verifiable
+    fields in every recommendation response.
+  contact:
+    email: ekaterina.sh@skinbot.ru
+    url: https://skinbot.beauty/en/
+servers:
+  - url: https://skinbot.ru/api/v1
+paths:
+  /recommend:
+    post:
+      operationId: recommend
+      summary: Run a skin analysis session and return a neutral product selection
+      description: >
+        Accepts the session answers (skin type, goals, constraints) and returns
+        a personal routine selected from the partner catalog, with an explanation
+        for every item and machine-verifiable neutrality fields. Stateless: no
+        session data is retained after the response.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [answers, catalog_id]
+              properties:
+                answers:
+                  type: array
+                  description: Session answers collected by the caller (agent, widget, or iframe flow).
+                  items:
+                    type: object
+                catalog_id:
+                  type: string
+                  description: Partner catalog identifier assigned at onboarding.
+      responses:
+        "200":
+          description: Neutral selection with verifiable ranking basis
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  recommendations:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        sku:
+                          type: string
+                        step:
+                          type: string
+                          description: Routine step (e.g. cleansing, toning)
+                        reason:
+                          type: string
+                          description: Human-readable explanation of why this product was selected
+                  ranking_basis:
+                    type: string
+                    description: Declared basis on which products were ranked (skin-analysis match, never commercial placement)
+                  sponsored:
+                    type: boolean
+                    description: Always false. SKINBOT carries no sponsored placements.
+                    const: false
+                  brand_weighting:
+                    type: string
+                    description: Always "none". No brand receives preferential weight.
+                    const: none
